@@ -1,6 +1,6 @@
 # Java Language Specification (JLS) Examples Directory
 
-This directory contains 50 compilable Java programs (`Ex01` through `Ex50` plus core JLS foundation demos) demonstrating important Java Language Specifications and language evolution from **Java 8 through Java 25**.
+This directory contains 100 compilable Java programs (`Ex01` through `Ex100` plus core JLS foundation demos) demonstrating important Java Language Specifications and language evolution from **Java 8 through Java 25 & Valhalla**.
 
 Each program includes inline source code comments referencing exact JLS sections (`§`) and explaining the underlying behavior enforced by the compiler and runtime.
 
@@ -136,3 +136,15 @@ java --enable-preview jls.Ex22_StatementsBeforeSuper
 | 86 | [`Ex86_MethodHandlesAndVarHandles.java`](file:///sdcard/Download/termux/JLS/Ex86_MethodHandlesAndVarHandles.java) | Java 8+ | **JLS §15.12**: MethodHandles, VarHandles & Dynamic Invocation |
 | 87 | [`Ex87_StatementsBeforeSuper.java`](file:///sdcard/Download/termux/JLS/Ex87_StatementsBeforeSuper.java) | Java 22+ (Preview) | **JLS §15.7.2**: Statements Before Super in Constructors |
 | 88 | [`Ex88_PrimitivePatterns.java`](file:///sdcard/Download/termux/JLS/Ex88_PrimitivePatterns.java) | Java 23+ (Preview) | **JLS §14.30.2**: Primitive Type Patterns in Switch |
+| 89 | [`Ex89_ModuleImportDeclarations.java`](file:///sdcard/Download/termux/JLS/Ex89_ModuleImportDeclarations.java) | Java 23+ (Preview) | **JLS §7.5.5**: Module Import Declarations (`import module java.base;`) |
+| 90 | [`Ex90_MarkdownDocumentationComments.java`](file:///sdcard/Download/termux/JLS/Ex90_MarkdownDocumentationComments.java) | Java 23+ | **JLS §3.7**: Markdown Documentation Comments (`///`) |
+| 91 | [`Ex91_ClassFileAPIStandard.java`](file:///sdcard/Download/termux/JLS/Ex91_ClassFileAPIStandard.java) | Java 24+ | **JVMS §4**: Class-File API Standard for Bytecode Parsing & Generation |
+| 92 | [`Ex92_CustomStreamGatherers.java`](file:///sdcard/Download/termux/JLS/Ex92_CustomStreamGatherers.java) | Java 24+ | **JLS §15.12**: Custom Stream Gatherers (Integrator, Combiner, Finisher) |
+| 93 | [`Ex93_ValhallaValueObjects.java`](file:///sdcard/Download/termux/JLS/Ex93_ValhallaValueObjects.java) | Java 25+ / Valhalla | **Valhalla Spec**: Value Classes & Objects (`value class`), Substitutability & Flat Memory |
+| 94 | [`Ex94_ValhallaNullRestrictedTypes.java`](file:///sdcard/Download/termux/JLS/Ex94_ValhallaNullRestrictedTypes.java) | Java 25+ / Valhalla | **Valhalla Spec**: Null-Restricted Types (`T!`), Zero Defaults & Atomic Safety |
+| 95 | [`Ex95_SimpleSourceFilesAndIO.java`](file:///sdcard/Download/termux/JLS/Ex95_SimpleSourceFilesAndIO.java) | Java 23+ (Preview) | **JLS §7.3, §12.1.4**: Simple Source Files, Instance Main Methods & `java.io.IO` |
+| 96 | [`Ex96_VectorAPISIMD.java`](file:///sdcard/Download/termux/JLS/Ex96_VectorAPISIMD.java) | Java 22+ (Incubator)| **Vector API**: SIMD Hardware Accelerated Vector Computations |
+| 97 | [`Ex97_ForeignFunctionLinker.java`](file:///sdcard/Download/termux/JLS/Ex97_ForeignFunctionLinker.java) | Java 22+ | **JLS §4.1**: Foreign Function & Memory (FFM) Native Linker & Upcalls/Downcalls |
+| 98 | [`Ex98_AdvancedScopedValues.java`](file:///sdcard/Download/termux/JLS/Ex98_AdvancedScopedValues.java) | Java 24+ (Preview) | **JLS §17**: Advanced Scoped Values, Dynamic Re-binding & Lifecycle |
+| 99 | [`Ex99_StructuredConcurrencyCustomPolicies.java`](file:///sdcard/Download/termux/JLS/Ex99_StructuredConcurrencyCustomPolicies.java) | Java 24+ (Preview) | **JLS §17**: Structured Concurrency, Subtask Scopes & Fail-Fast Policies |
+| 100 | [`Ex100_FlexibleConstructorPrologue.java`](file:///sdcard/Download/termux/JLS/Ex100_FlexibleConstructorPrologue.java) | Java 24+ (Preview) | **JLS §8.8.7**: Flexible Constructor Bodies, Early Construction Context & Validation |
