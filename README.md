@@ -84,6 +84,11 @@ Each program includes inline source code comments referencing exact JLS sections
 | 66 | [`Ex66_ReflectionAndDynamicProxies.java`](file:///sdcard/Download/termux/JLS/Ex66_ReflectionAndDynamicProxies.java) | Java 8+ | **Reflection API**: Dynamic Proxies, InvocationHandlers & Runtime Class Inspection |
 | 67 | [`Ex67_OverloadingAndOverridingEdgeCases.java`](file:///sdcard/Download/termux/JLS/Ex67_OverloadingAndOverridingEdgeCases.java) | Java 8+ | **JLS §8.4, §15.12**: Covariant Returns, Overload Resolution Priority & Bridge Methods |
 | 68 | [`Ex68_ClassLoadingAndInitialization.java`](file:///sdcard/Download/termux/JLS/Ex68_ClassLoadingAndInitialization.java) | Java 8+ | **JLS §12.4**: Static Initialization Order, Triggering & Lazy Loading |
+| 69 | [`Ex69_RecursiveGenericsAndTypeBounds.java`](file:///sdcard/Download/termux/JLS/Ex69_RecursiveGenericsAndTypeBounds.java) | Java 8+ | **JLS §4.5**: Recursive Type Bounds, Flexible Bounds & Multiple Bounds |
+| 70 | [`Ex70_DefiniteAssignmentEdgeCases.java`](file:///sdcard/Download/termux/JLS/Ex70_DefiniteAssignmentEdgeCases.java) | Java 8+ | **JLS §16**: Definite Assignment Rules in Complex Control Flow |
+| 71 | [`Ex71_AdvancedOverloadResolution.java`](file:///sdcard/Download/termux/JLS/Ex71_AdvancedOverloadResolution.java) | Java 8+ | **JLS §15.12.2**: Overload Resolution Phases (Exact $\rightarrow$ Widening $\rightarrow$ Boxing $\rightarrow$ Varargs) |
+| 72 | [`Ex72_ConstantExpressionsAndCompileTime.java`](file:///sdcard/Download/termux/JLS/Ex72_ConstantExpressionsAndCompileTime.java) | Java 8+ | **JLS §15.28**: Constant Expressions & Compile-Time Constant Folding |
+| 73 | [`Ex73_MemoryModelVisibilityDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex73_MemoryModelVisibilityDeepDive.java) | Java 8+ | **JLS §17.4**: Memory Model, Visibility, Data Races & Volatile Guarantees |
 
 
 ---
