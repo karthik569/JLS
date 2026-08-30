@@ -14,6 +14,7 @@ Each program includes inline source code comments referencing exact JLS sections
 | -- | [`PolymorphismAndResolutionDemo.java`](file:///sdcard/Download/termux/JLS/PolymorphismAndResolutionDemo.java) | Java 8+ | **JLS §8, §15.12**: Dynamic method selection, field hiding, static method hiding, overload resolution |
 | -- | [`MemoryModelDemo.java`](file:///sdcard/Download/termux/JLS/MemoryModelDemo.java) | Java 8+ | **JLS §17.4**: Java Memory Model (JMM), volatile visibility, happens-before ordering |
 | -- | [`GenericsAndErasureDemo.java`](file:///sdcard/Download/termux/JLS/GenericsAndErasureDemo.java) | Java 8+ | **JLS §4.5, §4.6, §4.10**: Type erasure, PECS wildcards, array covariance vs generic invariance |
+| -- | [`GenericInterfaceDemo.java`](file:///sdcard/Download/termux/JLS/GenericInterfaceDemo.java) | Java 8+ | **JLS §9.1.2**: Generic Interfaces & Type Parameterization |
 | -- | [`ControlFlowAndDefiniteAssignmentDemo.java`](file:///sdcard/Download/termux/JLS/ControlFlowAndDefiniteAssignmentDemo.java) | Java 17+ | **JLS §14.21, §16**: Definite assignment rules, unreachable statements, sealed switch |
 | 01 | [`Ex01_LambdaExpressions.java`](file:///sdcard/Download/termux/JLS/Ex01_LambdaExpressions.java) | Java 8 | **JLS §15.27**: Lambda Expressions, Functional Interfaces & Target Typing |
 | 02 | [`Ex02_MethodReferences.java`](file:///sdcard/Download/termux/JLS/Ex02_MethodReferences.java) | Java 8 | **JLS §15.13**: Method References (Static, Instance, Constructor) |
@@ -65,6 +66,25 @@ Each program includes inline source code comments referencing exact JLS sections
 | 48 | [`Ex48_StampedLockOptimisticRead.java`](file:///sdcard/Download/termux/JLS/Ex48_StampedLockOptimisticRead.java) | Java 8+ | **JLS §17.4**: Non-blocking Optimistic Read Validation with `StampedLock` |
 | 49 | [`Ex49_CustomSpliterator.java`](file:///sdcard/Download/termux/JLS/Ex49_CustomSpliterator.java) | Java 8+ | **JLS §15.12**: Data Source Partitioning & Spliterator Traversal Rules |
 | 50 | [`Ex50_StandardHttpClient.java`](file:///sdcard/Download/termux/JLS/Ex50_StandardHttpClient.java) | Java 11+ | **JLS §4.3**: Non-blocking Asynchronous HTTP Client Model |
+| 51 | [`Ex51_LexicalStructure.java`](file:///sdcard/Download/termux/JLS/Ex51_LexicalStructure.java) | Java 8+ | **JLS §3**: Identifiers, Keywords, Literals & Lexical Structure |
+| 52 | [`Ex52_TypesValuesVariables.java`](file:///sdcard/Download/termux/JLS/Ex52_TypesValuesVariables.java) | Java 8+ | **JLS §4**: Primitive/Reference Types, Type Erasure & Subtyping |
+| 53 | [`Ex53_ConversionsAndContexts.java`](file:///sdcard/Download/termux/JLS/Ex53_ConversionsAndContexts.java) | Java 8+ | **JLS §5**: Primitive/Reference Conversions, Boxing & Contexts |
+| 54 | [`Ex54_NamesAndPackages.java`](file:///sdcard/Download/termux/JLS/Ex54_NamesAndPackages.java) | Java 8+ | **JLS §6, §7**: Names, Scopes, Access Control & Packages |
+| 55 | [`Ex55_ClassesDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex55_ClassesDeepDive.java) | Java 17+ | **JLS §8**: Class Declarations, Members, Sealed Classes & Records |
+| 56 | [`Ex56_InterfacesDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex56_InterfacesDeepDive.java) | Java 9+ | **JLS §9**: Interface Members, Default/Private Methods & Annotations |
+| 57 | [`Ex57_ArraysDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex57_ArraysDeepDive.java) | Java 8+ | **JLS §10**: Array Creation, Access, Covariance & Class Objects |
+| 58 | [`Ex58_ExceptionsDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex58_ExceptionsDeepDive.java) | Java 9+ | **JLS §11**: Exception Hierarchy, Try-Catch-Finally & Chaining |
+| 59 | [`Ex59_ExecutionAndInitialization.java`](file:///sdcard/Download/termux/JLS/Ex59_ExecutionAndInitialization.java) | Java 8+ | **JLS §12**: Class Loading, Static/Instance Initialization & VM Startup |
+| 60 | [`Ex60_StatementsDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex60_StatementsDeepDive.java) | Java 21+ | **JLS §14**: Control Flow, Switch Expressions & Pattern Matching |
+| 61 | [`Ex61_ExpressionsDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex61_ExpressionsDeepDive.java) | Java 8+ | **JLS §15**: Expression Evaluation, Method Resolution & Lambdas |
+| 62 | [`Ex62_ThreadsAndLocksDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex62_ThreadsAndLocksDeepDive.java) | Java 21+ | **JLS §17**: Synchronization, Memory Model & Virtual Threads |
+| 63 | [`Ex63_TypeInferenceDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex63_TypeInferenceDeepDive.java) | Java 11+ | **JLS §18**: Type Inference, Diamond Operator & Local Variable Type Inference |
+| 64 | [`Ex64_GenericsWildcardsAndVariance.java`](file:///sdcard/Download/termux/JLS/Ex64_GenericsWildcardsAndVariance.java) | Java 8+ | **JLS §4.5.3, §4.5.4**: Generic Variance, PECS (Producer Extends, Consumer Super) & Wildcards |
+| 65 | [`Ex65_EnumDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex65_EnumDeepDive.java) | Java 8+ | **JLS §8.9**: Advanced Enums, Constant-Specific Class Bodies, EnumSet & EnumMap |
+| 66 | [`Ex66_ReflectionAndDynamicProxies.java`](file:///sdcard/Download/termux/JLS/Ex66_ReflectionAndDynamicProxies.java) | Java 8+ | **Reflection API**: Dynamic Proxies, InvocationHandlers & Runtime Class Inspection |
+| 67 | [`Ex67_OverloadingAndOverridingEdgeCases.java`](file:///sdcard/Download/termux/JLS/Ex67_OverloadingAndOverridingEdgeCases.java) | Java 8+ | **JLS §8.4, §15.12**: Covariant Returns, Overload Resolution Priority & Bridge Methods |
+| 68 | [`Ex68_ClassLoadingAndInitialization.java`](file:///sdcard/Download/termux/JLS/Ex68_ClassLoadingAndInitialization.java) | Java 8+ | **JLS §12.4**: Static Initialization Order, Triggering & Lazy Loading |
+
 
 ---
 
