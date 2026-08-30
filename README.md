@@ -89,6 +89,11 @@ Each program includes inline source code comments referencing exact JLS sections
 | 71 | [`Ex71_AdvancedOverloadResolution.java`](file:///sdcard/Download/termux/JLS/Ex71_AdvancedOverloadResolution.java) | Java 8+ | **JLS §15.12.2**: Overload Resolution Phases (Exact $\rightarrow$ Widening $\rightarrow$ Boxing $\rightarrow$ Varargs) |
 | 72 | [`Ex72_ConstantExpressionsAndCompileTime.java`](file:///sdcard/Download/termux/JLS/Ex72_ConstantExpressionsAndCompileTime.java) | Java 8+ | **JLS §15.28**: Constant Expressions & Compile-Time Constant Folding |
 | 73 | [`Ex73_MemoryModelVisibilityDeepDive.java`](file:///sdcard/Download/termux/JLS/Ex73_MemoryModelVisibilityDeepDive.java) | Java 8+ | **JLS §17.4**: Memory Model, Visibility, Data Races & Volatile Guarantees |
+| 74 | [`Ex74_NestedAndInnerClasses.java`](file:///sdcard/Download/termux/JLS/Ex74_NestedAndInnerClasses.java) | Java 8+ | **JLS §8.1.5**: Nested Classes, Member Inner, Local & Anonymous Classes |
+| 75 | [`Ex75_SynchronizationAndMonitors.java`](file:///sdcard/Download/termux/JLS/Ex75_SynchronizationAndMonitors.java) | Java 8+ | **JLS §17.4**: Synchronization, Monitor Locks & Memory Visibility |
+| 76 | [`Ex76_FloatingPointAndStrictfp.java`](file:///sdcard/Download/termux/JLS/Ex76_FloatingPointAndStrictfp.java) | Java 8+ | **JLS §4.2.2**: Floating Point Semantics & the strictfp Modifier |
+| 77 | [`Ex77_ExceptionSuppressionAndFinally.java`](file:///sdcard/Download/termux/JLS/Ex77_ExceptionSuppressionAndFinally.java) | Java 8+ | **JLS §11, §14.20**: Exception Suppression & Finally Block Behavior |
+| 78 | [`Ex78_GenericArrayEdgeCases.java`](file:///sdcard/Download/termux/JLS/Ex78_GenericArrayEdgeCases.java) | Java 8+ | **JLS §4.5, §10**: Generic Array Creation & Array Covariance |
 
 
 ---
@@ -116,3 +121,18 @@ javac --release 25 --enable-preview JLS/Ex22_StatementsBeforeSuper.java
 # Run preview example
 java --enable-preview jls.Ex22_StatementsBeforeSuper
 ```
+
+## Advanced Topics (Java 21+)
+
+| # | File | Min Java Version | JLS Specification & Description |
+|---|---|---|---|
+| 79 | [`Ex79_StructuredConcurrency.java`](file:///sdcard/Download/termux/JLS/Ex79_StructuredConcurrency.java) | Java 21+ | **JLS §17**: Structured Concurrency, Joiner Strategies & Task Scopes |
+| 80 | [`Ex80_ScopedValues.java`](file:///sdcard/Download/termux/JLS/Ex80_ScopedValues.java) | Java 21+ | **JLS §20**: Scoped Values for Thread-Local Data Sharing |
+| 81 | [`Ex81_StreamGatherers.java`](file:///sdcard/Download/termux/JLS/Ex81_StreamGatherers.java) | Java 22+ | **JLS §15**: Stream Gatherers, windowFixed, windowSliding, scan |
+| 82 | [`Ex82_UnnamedVariablesAndPatterns.java`](file:///sdcard/Download/termux/JLS/Ex82_UnnamedVariablesAndPatterns.java) | Java 22+ | **JLS §14.30.3**: Unnamed Variables and Patterns (`_`) |
+| 83 | [`Ex83_ForeignFunctionAndMemoryAPI.java`](file:///sdcard/Download/termux/JLS/Ex83_ForeignFunctionAndMemoryAPI.java) | Java 22+ | **JLS §3.9**: Foreign Function & Memory API, MemorySegment, Arena |
+| 84 | [`Ex84_ClassFileAPI.java`](file:///sdcard/Download/termux/JLS/Ex84_ClassFileAPI.java) | Java 22+ (Preview) | **JLS §3.7**: Class-File API for Parsing/Generating Class Files |
+| 85 | [`Ex85_SynchronizedMonitorsAndLocking.java`](file:///sdcard/Download/termux/JLS/Ex85_SynchronizedMonitorsAndLocking.java) | Java 8+ | **JLS §17**: Synchronization, Monitors, ReentrantLock, StampedLock |
+| 86 | [`Ex86_MethodHandlesAndVarHandles.java`](file:///sdcard/Download/termux/JLS/Ex86_MethodHandlesAndVarHandles.java) | Java 8+ | **JLS §15.12**: MethodHandles, VarHandles & Dynamic Invocation |
+| 87 | [`Ex87_StatementsBeforeSuper.java`](file:///sdcard/Download/termux/JLS/Ex87_StatementsBeforeSuper.java) | Java 22+ (Preview) | **JLS §15.7.2**: Statements Before Super in Constructors |
+| 88 | [`Ex88_PrimitivePatterns.java`](file:///sdcard/Download/termux/JLS/Ex88_PrimitivePatterns.java) | Java 23+ (Preview) | **JLS §14.30.2**: Primitive Type Patterns in Switch |
