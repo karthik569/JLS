@@ -1,6 +1,6 @@
 # Java Language Specification (JLS) Examples Directory
 
-This directory contains 100 compilable Java programs (`Ex01` through `Ex100` plus core JLS foundation demos) demonstrating important Java Language Specifications and language evolution from **Java 8 through Java 25 & Valhalla**.
+This directory contains 110 compilable Java programs (`Ex01` through `Ex110` plus core JLS foundation demos) demonstrating important Java Language Specifications and language evolution from **Java 8 through Java 25 & Valhalla**.
 
 Each program includes inline source code comments referencing exact JLS sections (`§`) and explaining the underlying behavior enforced by the compiler and runtime.
 
@@ -148,3 +148,13 @@ java --enable-preview jls.Ex22_StatementsBeforeSuper
 | 98 | [`Ex98_AdvancedScopedValues.java`](file:///sdcard/Download/termux/JLS/Ex98_AdvancedScopedValues.java) | Java 24+ (Preview) | **JLS §17**: Advanced Scoped Values, Dynamic Re-binding & Lifecycle |
 | 99 | [`Ex99_StructuredConcurrencyCustomPolicies.java`](file:///sdcard/Download/termux/JLS/Ex99_StructuredConcurrencyCustomPolicies.java) | Java 24+ (Preview) | **JLS §17**: Structured Concurrency, Subtask Scopes & Fail-Fast Policies |
 | 100 | [`Ex100_FlexibleConstructorPrologue.java`](file:///sdcard/Download/termux/JLS/Ex100_FlexibleConstructorPrologue.java) | Java 24+ (Preview) | **JLS §8.8.7**: Flexible Constructor Bodies, Early Construction Context & Validation |
+| 101 | [`Ex101_AnnotationsAndRetention.java`](file:///sdcard/Download/termux/JLS/Ex101_AnnotationsAndRetention.java) | Java 8+ | **JLS §9.7**: Annotations, Retention Policies, Targets & Repeatable Annotations |
+| 102 | [`Ex102_VarargsAndHeapPollution.java`](file:///sdcard/Download/termux/JLS/Ex102_VarargsAndHeapPollution.java) | Java 5+ | **JLS §15.12.4.2**: Varargs Invocation, Array Allocation & Heap Pollution (`@SafeVarargs`) |
+| 103 | [`Ex103_CovariantReturns.java`](file:///sdcard/Download/termux/JLS/Ex103_CovariantReturns.java) | Java 5+ | **JLS §8.4.8.3**: Covariant Return Types in Method Overriding & Interface Implementation |
+| 104 | [`Ex104_FinalFieldSemantics.java`](file:///sdcard/Download/termux/JLS/Ex104_FinalFieldSemantics.java) | Java 5+ | **JLS §17.5**: Final Field Memory Model, Freeze Action & Safe Publication |
+| 105 | [`Ex105_EnumDeepSemantics.java`](file:///sdcard/Download/termux/JLS/Ex105_EnumDeepSemantics.java) | Java 5+ | **JLS §8.9**: Enum Constants Body, Fields, Methods & Per-Constant Behavior |
+| 106 | [`Ex106_LocalClasses.java`](file:///sdcard/Download/termux/JLS/Ex106_LocalClasses.java) | Java 8+ | **JLS §14.3**: Local Class Declarations, Block Scope & Effectively Final Access |
+| 107 | [`Ex107_EffectivelyFinalCapture.java`](file:///sdcard/Download/termux/JLS/Ex107_EffectivelyFinalCapture.java) | Java 8+ | **JLS §8.1.3 & §15.27.2**: Effectively Final Variable Capture by Lambdas & Anonymous Classes |
+| 108 | [`Ex108_StaticInitializers.java`](file:///sdcard/Download/termux/JLS/Ex108_StaticInitializers.java) | Java 8+ | **JLS §8.7**: Static Initializer Blocks, Class Initialization & Holder-Idiom Lazy Init |
+| 109 | [`Ex109_InstanceInitializerBlocks.java`](file:///sdcard/Download/termux/JLS/Ex109_InstanceInitializerBlocks.java) | Java 8+ | **JLS §8.6**: Instance Initializer Blocks, Source Order & Anonymous Class Init |
+| 110 | [`Ex110_ResourceSpecification.java`](file:///sdcard/Download/termux/JLS/Ex110_ResourceSpecification.java) | Java 9+ | **JLS §14.20.3**: try-with-resources Resource Specification (Java 9 style) & Suppressed Exceptions |
